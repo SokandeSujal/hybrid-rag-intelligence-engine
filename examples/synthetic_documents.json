@@ -1,0 +1,5 @@
+[
+  {"id":"doc-ml-01","text":"A machine learning pipeline separates training data from validation data. The training split estimates model parameters, while validation helps choose hyperparameters and stopping rules. A final held-out test set should not be used to tune decisions.","metadata":{"topic":"ml","source":"synthetic-handbook"}},
+  {"id":"doc-rag-01","text":"Hybrid retrieval combines sparse lexical retrieval with dense semantic retrieval. Reciprocal-rank fusion combines rankings without assuming their raw scores share one calibrated scale. Reranking can improve ordering only among candidates that were retrieved.","metadata":{"topic":"retrieval","source":"synthetic-handbook"}},
+  {"id":"doc-eval-01","text":"Retrieval metrics such as Recall at k, mean reciprocal rank, and normalized discounted cumulative gain measure different aspects of ranking. Answer faithfulness and citation correctness should be evaluated separately from retrieval recall.","metadata":{"topic":"evaluation","source":"synthetic-handbook"}}
+]

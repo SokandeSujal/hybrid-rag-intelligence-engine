@@ -1,0 +1,6 @@
+{
+  "chunking": {"max_chars": 420, "overlap_chars": 60},
+  "retrieval": {"sparse_top_k": 5, "dense_top_k": 5, "final_top_k": 4, "rrf_k": 60},
+  "context": {"token_budget": 220},
+  "generation": {"minimum_evidence_score": 0.0, "abstain_when_empty": true}
+}
